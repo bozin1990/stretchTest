@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7025360723E6C0BA0080D1A8 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7025360623E6C0BA0080D1A8 /* Song.swift */; };
+		7025360923E6CC130080D1A8 /* PhotoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7025360823E6CC130080D1A8 /* PhotoCollectionViewController.swift */; };
+		7025360B23E6CC270080D1A8 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7025360A23E6CC270080D1A8 /* PhotoViewController.swift */; };
+		7025360D23E6CC6F0080D1A8 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7025360C23E6CC6F0080D1A8 /* PhotoCollectionViewCell.swift */; };
 		702C095423E5DED700C38CAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702C095323E5DED700C38CAE /* AppDelegate.swift */; };
 		702C095623E5DED700C38CAE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702C095523E5DED700C38CAE /* SceneDelegate.swift */; };
-		702C095823E5DED700C38CAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702C095723E5DED700C38CAE /* ViewController.swift */; };
 		702C095B23E5DED700C38CAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 702C095923E5DED700C38CAE /* Main.storyboard */; };
 		702C095D23E5DED900C38CAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 702C095C23E5DED900C38CAE /* Assets.xcassets */; };
 		702C096023E5DED900C38CAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 702C095E23E5DED900C38CAE /* LaunchScreen.storyboard */; };
+		70A0A7D223E5E3820050CAC8 /* SongTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A0A7D123E5E3820050CAC8 /* SongTableViewController.swift */; };
+		70A0A7D423E5E3950050CAC8 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A0A7D323E5E3950050CAC8 /* ImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7025360623E6C0BA0080D1A8 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		7025360823E6CC130080D1A8 /* PhotoCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewController.swift; sourceTree = "<group>"; };
+		7025360A23E6CC270080D1A8 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		7025360C23E6CC6F0080D1A8 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		702C095023E5DED700C38CAE /* stretchTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stretchTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		702C095323E5DED700C38CAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		702C095523E5DED700C38CAE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		702C095723E5DED700C38CAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		702C095A23E5DED700C38CAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		702C095C23E5DED900C38CAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		702C095F23E5DED900C38CAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		702C096123E5DED900C38CAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70A0A7D123E5E3820050CAC8 /* SongTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongTableViewController.swift; sourceTree = "<group>"; };
+		70A0A7D323E5E3950050CAC8 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +68,13 @@
 			children = (
 				702C095323E5DED700C38CAE /* AppDelegate.swift */,
 				702C095523E5DED700C38CAE /* SceneDelegate.swift */,
-				702C095723E5DED700C38CAE /* ViewController.swift */,
 				702C095923E5DED700C38CAE /* Main.storyboard */,
+				7025360C23E6CC6F0080D1A8 /* PhotoCollectionViewCell.swift */,
+				7025360823E6CC130080D1A8 /* PhotoCollectionViewController.swift */,
+				7025360A23E6CC270080D1A8 /* PhotoViewController.swift */,
+				7025360623E6C0BA0080D1A8 /* Song.swift */,
+				70A0A7D123E5E3820050CAC8 /* SongTableViewController.swift */,
+				70A0A7D323E5E3950050CAC8 /* ImageViewController.swift */,
 				702C095C23E5DED900C38CAE /* Assets.xcassets */,
 				702C095E23E5DED900C38CAE /* LaunchScreen.storyboard */,
 				702C096123E5DED900C38CAE /* Info.plist */,
@@ -138,9 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				702C095823E5DED700C38CAE /* ViewController.swift in Sources */,
 				702C095423E5DED700C38CAE /* AppDelegate.swift in Sources */,
+				7025360D23E6CC6F0080D1A8 /* PhotoCollectionViewCell.swift in Sources */,
+				7025360923E6CC130080D1A8 /* PhotoCollectionViewController.swift in Sources */,
+				70A0A7D423E5E3950050CAC8 /* ImageViewController.swift in Sources */,
+				70A0A7D223E5E3820050CAC8 /* SongTableViewController.swift in Sources */,
+				7025360B23E6CC270080D1A8 /* PhotoViewController.swift in Sources */,
 				702C095623E5DED700C38CAE /* SceneDelegate.swift in Sources */,
+				7025360723E6C0BA0080D1A8 /* Song.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
